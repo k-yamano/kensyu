@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シャボン玉石けん若松工場へようこそ！</title>
+    <link rel="stylesheet" href="rana.css">
+</head>
+<body>
+    <h1 class="main-title">シャボン玉石けん若松工場へようこそ！</h1>
+    <p class="sub-title">青いお空がほしいのね♪</p>
+    <div class="image-container">
+        <img src="factory.jpg" alt="シャボン玉石けん若松工場">
+    </div>
+
+    <button id="linkButton">シャボン玉石けん公式サイトへ</button>
+
+    <script>
+        document.getElementById("linkButton").addEventListener("click", function() {
+            window.open("https://www.shabon.com/", "_blank");
+        });
+    </script>
+</body>
+</html>
